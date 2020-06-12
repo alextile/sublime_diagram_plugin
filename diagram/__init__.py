@@ -3,6 +3,7 @@ from .plantuml import PlantUMLProcessor
 from .sublime3 import Sublime3Viewer
 from .quicklook import QuickLookViewer
 from .preview import PreviewViewer
+from .safari import SafariViewer
 from .eog import EyeOfGnomeViewer
 from .freedesktop_default import FreedesktopDefaultViewer
 from .windows import WindowsDefaultViewer
@@ -17,6 +18,7 @@ AVAILABLE_VIEWERS = [
     QuickLookViewer,
     EyeOfGnomeViewer,
     PreviewViewer,
+    SafariViewer,
     FreedesktopDefaultViewer,
     WindowsDefaultViewer,
 ]
